@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+}
+
+.navbar {
+  background: #0b2c4d;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.tracking-details {
+  padding: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
