@@ -1,6 +1,6 @@
 function goToTrackingPage() {
   const input = document.getElementById("trackingNumber").value.trim();
-  const VALID_TRACKING = "EC-2026-839201";
+  const VALID_TRACKING = "EC2026839201";
 
   if (!input) {
     alert("Please enter a tracking number");
