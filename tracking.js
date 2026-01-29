@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Shipment data for the valid number
   const shipmentData = {
-    status: "On Hold – Awaiting Payment",
+    status: "Order Confirmed / Preparing Shipment",
     origin: "Syria",
     destination: "85 Knox Road, Clacton-on-Sea, Essex CO15 3TT, UK",
-    update: "Warehoused / In Warehouse"
+    update: "moving to airport"
   };
 
   const card = document.querySelector(".card");
