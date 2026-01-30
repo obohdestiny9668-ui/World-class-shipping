@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     status: "Order Confirmed / Preparing Shipment",
     origin: "Syria",
     destination: "85 Knox Road, Clacton-on-Sea, Essex CO15 3TT, UK",
-    update: "moving to airport"
+    lastUpdate: "Shipment arrived at Damascus International Airport (DAM) and is awaiting processing"
   };
 
   const card = document.querySelector(".card");
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
       statusEl.textContent = shipmentData.status;
       originEl.textContent = shipmentData.origin;
       destinationEl.textContent = shipmentData.destination;
-      updateEl.textContent = shipmentData.update;
+      updateEl.textContent = shipmentData.lastUpdate;
     }
   } else {
     card.innerHTML = `
