@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Shipment data for the valid number
   const shipmentData = {
-    status: "Order Confirmed / Preparing Shipment",
+    status: "in transit",
     origin: "Syria",
     destination: "85 Knox Road, Clacton-on-Sea, Essex CO15 3TT, UK",
-    lastUpdate: "Shipment arrived at Damascus International Airport (DAM) and is awaiting processing"
+    lastUpdate: "Departed from the airport"
   };
 
   const card = document.querySelector(".card");
