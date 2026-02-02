@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Shipment data for the valid number
   const shipmentData = {
-    status: "in transit",
+    status: "Package arrived at London Heathrow Airport (LHR)",
     origin: "Syria",
     destination: "85 Knox Road, Clacton-on-Sea, Essex CO15 3TT, UK",
-    lastUpdate: "Departed from the airport"
+    lastUpdate: "Arrived and prepared to go through customs"
   };
 
   const card = document.querySelector(".card");
