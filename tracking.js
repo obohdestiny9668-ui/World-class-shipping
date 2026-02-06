@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Shipment data for the valid number
   const shipmentData = {
-    status: "Package arrived at London Heathrow Airport (LHR)",
+    status: "Awaiting customs clearance fee",
     origin: "Syria",
     destination: "85 Knox Road, Clacton-on-Sea, Essex CO15 3TT, UK",
-    lastUpdate: "Arrived and prepared to go through customs"
+    lastUpdate: "Shipment held at Heathrow Airport (LHR) pending customs clearance. Delivery will proceed once released"
   };
 
   const card = document.querySelector(".card");
